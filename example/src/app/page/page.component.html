@@ -1,0 +1,15 @@
+<div class="p-field p-grid">
+  <label for="firstname3" class="p-col-fixed" style="width:100px">Username</label>
+  <div class="p-col">
+      <input id="firstname3" type="text" pInputText [(ngModel)]="Username">
+  </div>
+</div>
+<div class="p-field p-grid">
+  <label for="lastname3" class="p-col-fixed" style="width:100px">Password</label>
+  <div class="p-col">
+      <input id="lastname3" type="text" pInputText [(ngModel)]="Password">
+  </div>
+</div>
+<p-button label="Submit" (click)="onSubmit()"></p-button>
+<h1>{{text}}</h1>
+
